@@ -75,6 +75,7 @@ h6 {
     font-weight: 700;
     color: #fff;
     background-color: #fed136;
+    
 }
 
 .btn-primary:hover,
@@ -118,6 +119,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
+    margin: 10px 10px;
     padding: 20px 40px;
     border-color: #fed136;
     border-radius: 3px;
@@ -175,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Century Gothic Bold","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
 }
 
@@ -183,7 +185,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-part2 {
+    font: "SimSun-ExtB";
+    color: #fed136;
 }
 
 .navbar-default .navbar-collapse {
@@ -207,7 +214,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 00;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -247,6 +254,13 @@ fieldset[disabled] .btn-xl.active {
         transition: all .3s;
     }
 
+    .navbar-default .navbar-part2 {
+        font-size: 1.8em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
     }
@@ -258,6 +272,9 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+    .navbar-default.navbar-shrink .navbar-part2 {
+        font-size: 1.3em;
     }
 }
 
@@ -287,9 +304,16 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
+header .intro-text .intro-heading2 {
+    margin-bottom: 25px;
+    font-family: SimSun-ExtB,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
@@ -312,8 +336,14 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+    header .intro-text .intro-heading2 {
+        margin-bottom: 50px;
+        font-family: SimSun-ExtB,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -652,14 +682,18 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url(../img/contact-us.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #333;
 }
 
 section#contact .form-group {
@@ -676,7 +710,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    height: 148px;
 }
 
 section#contact .form-control:focus {
@@ -859,4 +893,43 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+}
+.a100 {
+    height: 100px;
+    width: 100%;
+    border-bottom: solid #000 1px;
+}
+#slider {
+    position:fixed;
+    top: 20%;
+    left: 0px;
+    display: inline-block;
+    width: 200px;
+    margin-left: -205px;
+    background-color: #fed136;
+    padding: 15px 15px;
+    border-bottom: 15px;
+    border-radius: 5px;
+}
+
+.slidertitle {
+    font-family: "Century Gothic Bold","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #000000;
+    font-size: 17pt
+}
+
+.sliderbody {
+    font-family: "Century Gothic Bold","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #000000;
+    font-size: 14.5pt
+}
+
+.sliderbody:hover,
+.sliderbody:focus,
+.sliderbody:active,
+.sliderbody.active{
+    color: #ffffff;
+    text-decoration: none;
 }

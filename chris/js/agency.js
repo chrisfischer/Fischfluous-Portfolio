@@ -24,3 +24,20 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+//Silder
+
+$(document).ready(function () {
+    slider();
+});
+
+$(window).scroll(function () {
+    slider();
+});
+
+function slider() {
+    if (document.body.scrollTop > 3000 && document.body.scrollTop < 4200)
+        $('#slider').stop().animate({"margin-left": '0'});
+    else
+        $('#slider').stop().animate({"margin-left": '-200'});
+}
