@@ -28,7 +28,7 @@ $('.navbar-collapse ul li a').click(function() {
 //Silder
 $(document).ready(function(){
   
-  $('#portfolio a, #catbot a, #slider a').on('click', function(e) {
+  $('#portfolio a, #catbot a').on('click', function(e) {
     e.preventDefault();
   });
 
@@ -38,11 +38,22 @@ $(document).ready(function(){
     var $toppp = $("#portfolio");
     var $bottommm = $("#catbot");
     if (scrolltop>=$toppp.offset().top && scrolltop<=$bottommm.offset().top){
-        $('#slider').stop().animate({"margin-left": '0'});
+        $('#slider').stop().animate({"margin-left": '-5'});
     }
     else {
-        $('#slider').stop().animate({"margin-left": '-200'}); 
+        $('#slider').stop().animate({"margin-left": '-205'}); 
     }
 });
 
+});
+
+//links
+$("#to3heart").click(function() {
+    $("#portfolioModal11").modal('hide');
+    $("#portfolioModal1").modal('show');
+});
+
+$("#to2heart").click(function() {
+    $("#portfolioModal1").modal('hide');
+    $("#portfolioModal11").modal('show');
 });
