@@ -916,7 +916,7 @@ body {
 }
 
 .slidertitle {
-    font-family: "Century Gothic Bold","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "CenturyGothicBold","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
     font-size: 17pt
 }
@@ -1061,4 +1061,35 @@ body {
     #portfolio2 .portfolio-item {
         margin: 0 0 30px;
     }
+}
+
+@font-face { font-family: SimSun-ExtB; src: url('http://www.fischfluous.com/fonts/simsunb.ttf'); } 
+@font-face { font-family: CenturyGothicBold; src: url('http://www.fischfluous.com/fonts/centurygothicbold.ttf'); }
+
+.closex {
+    background: url('http://www.fischfluous.com/img/close.svg') no-repeat center;
+    position: fixed;
+    top: 27px;
+    right: 50px;
+    opacity: 0.5;
+    cursor: pointer;
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0);
+    -webkit-transition: 0.5s cubic-bezier(.27, 1.64, .32, .95);
+    -moz-transition: 0.5s cubic-bezier(.27, 1.64, .32, .95);
+    -ms-transition: 0.5s cubic-bezier(.27, 1.64, .32, .95);
+    -o-transition: 0.5s cubic-bezier(.27, 1.64, .32, .95);
+    transition: 0.5s cubic-bezier(.27, 1.64, .32, .95);
+}
+.closex:hover {
+    background: url('http://www.fischfluous.com/img/closeyellow.svg') no-repeat center;
+    opacity: .9;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border-radius: 50%;
+    border-color: #222;
 }
