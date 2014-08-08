@@ -178,7 +178,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Montserrat-Bold","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
 }
 
@@ -214,7 +214,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 00;
     letter-spacing: 1px;
     color: #fff;
@@ -916,7 +916,7 @@ body {
 }
 
 .slidertitle {
-    font-family: "CenturyGothicBold","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Montserrat-Bold","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
     font-size: 17pt
 }
@@ -1065,6 +1065,8 @@ body {
 
 @font-face { font-family: SimSun-ExtB; src: url('http://www.fischfluous.com/fonts/simsunb.ttf'); } 
 @font-face { font-family: CenturyGothicBold; src: url('http://www.fischfluous.com/fonts/centurygothicbold.ttf'); }
+@font-face { font-family: Montserrat-Regular; src: url('http://www.fischfluous.com/fonts/Montserrat-Regular.ttf'); }
+@font-face { font-family: Montserrat-Bold; src: url('http://www.fischfluous.com/fonts/Montserrat-Bold.ttf'); }
 
 .closex {
     background: url('http://www.fischfluous.com/img/close.svg') no-repeat center;
@@ -1092,4 +1094,16 @@ body {
     transform: rotate(90deg);
     border-radius: 50%;
     border-color: #222;
+}
+
+@media only screen and (max-width: 1200px) {
+    #closex {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #closes {
+        display: none;
+    }
 }
