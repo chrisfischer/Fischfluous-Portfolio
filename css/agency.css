@@ -669,7 +669,7 @@ section h3.section-subheading {
 }
 
 .team-member h4 {
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 0;
     text-transform: none;
 }
@@ -1185,3 +1185,25 @@ body {
 }
 
 
+.backgroundimage {
+    background-attachment: scroll;
+    background-image: url(../img/bg2.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.textblack {
+    color: #000000;
+    background-color: #fed136;
+    border-bottom: 15px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 15px;
+}
