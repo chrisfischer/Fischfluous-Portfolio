@@ -1207,3 +1207,35 @@ body {
     padding-top: 15px;
     margin-top: 15px;
 }
+
+.showmol {
+    color: #333;
+    text-align: center;
+    font-style: italic;
+    font: "droid serif";
+    font-size: 25px;
+}
+
+.showmol:hover {
+    background-color: #fed136;
+    border-radius: 3px;
+    color: #fff;
+    max-width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#example123 {
+  position: relative;
+}
+#example123-checkbox {
+  display: none;
+}
+#example123-checkbox:checked + #example123:after {
+  content: "Show Less";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

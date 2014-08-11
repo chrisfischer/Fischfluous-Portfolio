@@ -57,3 +57,19 @@ $("#to2heart").click(function() {
     $("#portfolioModal1").modal('hide');
     $("#portfolioModal11").modal('show');
 });
+
+
+ $('#collapseDiv').on('shown.bs.collapse', function () {
+       $(".glyphicon").removeClass("glyphicon-folder-close").addClass("glyphicon-folder-open");
+    });
+
+$('#collapseDiv').on('hidden.bs.collapse', function () {
+       $(".glyphicon").removeClass("glyphicon-folder-open").addClass("glyphicon-folder-close");
+    });
+
+$("#example-one").on("click", function() {
+  var el = $(this);
+  el.text() == el.data("text-swap") 
+    ? el.text(el.data("text-original")) 
+    : el.text(el.data("text-swap"));
+});
