@@ -28,7 +28,7 @@ $('.navbar-collapse ul li a').click(function() {
 //Silder
 $(document).ready(function(){
   
-  $('#portfolio a, #team a').on('click', function(e) {
+  $('#portfolio a, #technology a').on('click', function(e) {
     e.preventDefault();
   });
 
@@ -36,7 +36,7 @@ $(document).ready(function(){
     var scrolltop = $(this).scrollTop();
     
     var $toppp = $("#portfolio");
-    var $bottommm = $("#team");
+    var $bottommm = $("#aboutus");
     if (scrolltop>=$toppp.offset().top && scrolltop<$bottommm.offset().top){
         $('#slider').stop().animate({"margin-left": '-5'});
     }
