@@ -36,7 +36,7 @@ $(document).ready(function(){
     var scrolltop = $(this).scrollTop();
     
     var $toppp = $("#portfolio");
-    var $bottommm = $("#aboutus");
+    var $bottommm = $("#technology");
     if (scrolltop>=$toppp.offset().top && scrolltop<$bottommm.offset().top){
         $('#slider').stop().animate({"margin-left": '-5'});
     }
