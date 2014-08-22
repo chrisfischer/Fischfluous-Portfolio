@@ -73,3 +73,8 @@ $("#example-one").on("click", function() {
     ? el.text(el.data("text-original")) 
     : el.text(el.data("text-swap"));
 });
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+
