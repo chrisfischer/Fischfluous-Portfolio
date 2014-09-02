@@ -659,7 +659,7 @@ section h3.section-subheading {
 }
 
 .team-member {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -1238,4 +1238,56 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.brandleft {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    float: left;
+    width: auto;
+    font-size: 20pt;
+}
+
+.brandright {
+    font-family: Simsun-ExtB;
+    float: right;
+    width: auto;
+    font-size: 20pt;
+}
+
+.press {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.presstext {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.presstitle h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.pressbox {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #fff;    
+    padding: 10px;
+}
+
+.pressbox:hover {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color:#222;
+    padding: 10px;
 }
