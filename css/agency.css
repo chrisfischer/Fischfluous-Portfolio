@@ -1325,14 +1325,3 @@ body {
     padding: 10px;
 }
 
-#e3dfilemarketpress {
-    background-image: url('http://www.fischfluous.com/img/press/3dfilemarket-logo.png');
-    height:50px;
-    width:144;
-}
-
-#e3dfilemarketpress:hover {
-    background-image: url('http://www.fischfluous.com/img/press/3dfilemarket-logo2.png');
-    height:50px;
-    width:144;
-}
