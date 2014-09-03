@@ -1287,6 +1287,8 @@ body {
 
 .modal-img {
     border-radius: 3px;
+    width: 100% !important;
+    height:auto !importantf;
 }
 
 .backgroundimage {
@@ -1304,7 +1306,7 @@ body {
     width: 70%;
     margin: auto;
     text-align: center;
-    color: #fff;    
+    color: #C4C4C4;    
     padding: 10px;
     -moz-transition: background .3s;
     -webkit-transition: background .3s;
@@ -1321,4 +1323,16 @@ body {
     background-color: #222;
     color:#fff;
     padding: 10px;
+}
+
+#e3dfilemarketpress {
+    background-image: url('http://www.fischfluous.com/img/press/3dfilemarket-logo.png');
+    height:50px;
+    width:144;
+}
+
+#e3dfilemarketpress:hover {
+    background-image: url('http://www.fischfluous.com/img/press/3dfilemarket-logo2.png');
+    height:50px;
+    width:144;
 }
