@@ -282,7 +282,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
+ 
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
@@ -1184,18 +1184,6 @@ body {
     }
 }
 
-
-.backgroundimage {
-    background-attachment: scroll;
-    background-image: url(../img/bg3.png);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 .textblack {
     color: #000000;
     background-color: #82BAB7;
@@ -1275,7 +1263,7 @@ body {
 }
 
 .pressbox {
-    width: 50%;
+    width: 70%;
     margin: auto;
     text-align: center;
     color: #fff;    
@@ -1283,7 +1271,7 @@ body {
 }
 
 .pressbox:hover {
-    width: 50%;
+    width: 70%;
     margin: auto;
     text-align: center;
     border-radius: 5px;
@@ -1294,5 +1282,15 @@ body {
 
 .modal-img {
     border-radius: 3px;
+}
 
+.backgroundimage {
+
+    background-image: url(../img/bg3.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }

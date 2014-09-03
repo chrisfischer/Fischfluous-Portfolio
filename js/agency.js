@@ -78,3 +78,8 @@ $(document).ready(function(){
   $(".owl-carousel").owlCarousel();
 });
 
+function parallax(){
+  var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+  prlx_lyr_1.style.top = -(window.pageYOffset / 4)+'px';
+}
+window.addEventListener("scroll", parallax, false);
