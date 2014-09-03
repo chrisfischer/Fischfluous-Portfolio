@@ -1294,3 +1294,21 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+.pressbox2 {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: #fff;    
+    padding: 10px;
+}
+
+.pressbox2:hover {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #222;
+    color:#fff;
+    padding: 10px;
+}
