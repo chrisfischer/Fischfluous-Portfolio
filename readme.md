@@ -1,2 +1,2 @@
 ##Fischfluous
-Source for Fischfuluous portfolio at Fischfluous.com
+Source for Chris Fischer portfolio at [Fischfluous.com](http://fischfluous.com)
