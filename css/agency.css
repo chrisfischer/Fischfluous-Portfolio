@@ -318,7 +318,6 @@ header .intro-text .intro-heading {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
-    line-height: 50px;
 }
 
 @media(min-width:768px) {
@@ -987,158 +986,6 @@ body {
     text-transform: none;
 }
 
-#portfolio2 .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
-}
-
-#portfolio2 .portfolio-item .portfolio-link {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 400px;
-}
-
-#portfolio2 .portfolio-item .portfolio-link .portfolio-hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background: rgba(130, 186, 183, .8);
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-}
-
-#portfolio2 .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1;
-}
-
-#portfolio2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 20px;
-    margin-top: -12px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-}
-#portfolio2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-    margin-top: -12px;
-}
-
-#portfolio2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0;
-}
-
-#portfolio2 .portfolio-item .portfolio-caption {
-    margin: 0 auto;
-    padding: 25px;
-    max-width: 400px;
-    text-align: center;
-    background-color: #fff;
-}
-
-#portfolio2 .portfolio-item .portfolio-caption h4 {
-    margin: 0;
-    text-transform: none;
-}
-
-#portfolio2 .portfolio-item .portfolio-caption p {
-    margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-}
-
-#portfolio2 * {
-    z-index: 2;
-}
-
-@media(min-width:767px) {
-    #portfolio2 .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
-
-#portfolio3 .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
-}
-
-#portfolio3 .portfolio-item .portfolio-link {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 400px;
-}
-
-#portfolio3 .portfolio-item .portfolio-link .portfolio-hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background: rgba(130, 186, 183, .8);
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-}
-
-#portfolio3 .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1;
-}
-
-#portfolio3 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 20px;
-    margin-top: -12px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-}
-#portfolio3 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-    margin-top: -12px;
-}
-
-#portfolio3 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio3 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0;
-}
-
-#portfolio3 .portfolio-item .portfolio-caption {
-    margin: 0 auto;
-    padding: 25px;
-    max-width: 400px;
-    text-align: center;
-    background-color: #fff;
-}
-
-#portfolio3 .portfolio-item .portfolio-caption h4 {
-    margin: 0;
-    text-transform: none;
-}
-
-#portfolio3 .portfolio-item .portfolio-caption p {
-    margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-}
-
-#portfolio3 * {
-    z-index: 2;
-}
-
-@media(min-width:767px) {
-    #portfolio3 .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
-
 @font-face { font-family: SimSun-ExtB; src: url('http://www.fischfluous.com/fonts/simsunb.ttf'); } 
 @font-face { font-family: CenturyGothicBold; src: url('http://www.fischfluous.com/fonts/centurygothicbold.ttf'); }
 @font-face { font-family: Montserrat-Regular; src: url('http://www.fischfluous.com/fonts/Montserrat-Regular.ttf'); }
@@ -1188,7 +1035,7 @@ body {
     color: #000000;
     background-color: #82BAB7;
     border-bottom: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -1244,7 +1091,7 @@ body {
 
 .press {
     background-color: #222;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 15px;
 }
 
@@ -1288,7 +1135,7 @@ body {
 .modal-img {
     border-radius: 3px;
     width: 100% !important;
-    height:auto !importantf;
+    height:auto !important;
 }
 
 .backgroundimage {
@@ -1323,5 +1170,44 @@ body {
     background-color: #222;
     color:#fff;
     padding: 10px;
+}
+
+.fullscreen {
+    height: 100%;
+    min-height: 950px;
+}
+
+html,body{
+  height:100%;
+}
+
+.headerbottom {
+    padding-top:60px;
+    padding-bottom: 40px;
+    font-size:20pt; 
+    font-style:italic;
+}
+
+.showmore {
+    font-size: 88pt;
+    -webkit-transition: .9s cubic-bezier(.27, 1.64, .32, .95);
+    -moz-transition: .9s cubic-bezier(.27, 1.64, .32, .95);
+    -ms-transition: .9s cubic-bezier(.27, 1.64, .32, .95);
+    -o-transition: .9s cubic-bezier(.27, 1.64, .32, .95);
+    transition: .9s cubic-bezier(.27, 1.64, .32, .95);
+}
+
+.showmore:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.arrowdown {
+    color: #f7f7f7;
+}
+
+.arrowdown:hover {
+    color: #222;
 }
 
