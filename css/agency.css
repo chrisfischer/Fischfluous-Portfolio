@@ -1149,6 +1149,25 @@ body {
     -o-background-size: cover;
 }
 
+.backgroundimage2 {
+    background-image: url(../img/bg4.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.backgroundimage3 {
+    background-image: url(../img/bg5.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 .pressbox2 {
     width: 70%;
     margin: auto;
@@ -1211,3 +1230,10 @@ html,body{
     color: #222;
 }
 
+.backgroundimage2 h2 { 
+    color: #f7f7f7;
+}
+
+.backgroundimage2 h3 { 
+    color: #f7f7f7;
+}
