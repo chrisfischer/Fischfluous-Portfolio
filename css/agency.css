@@ -268,7 +268,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: rgba(34, 34, 34, 0.85);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -1208,7 +1208,11 @@ html,body{
 }
 
 .showmore {
+    text-align: center;
     font-size: 88pt;
+    float: left;
+    margin-left: 48%;
+    margin-right: 50%;
     -webkit-transition: .9s cubic-bezier(.27, 1.64, .32, .95);
     -moz-transition: .9s cubic-bezier(.27, 1.64, .32, .95);
     -ms-transition: .9s cubic-bezier(.27, 1.64, .32, .95);
@@ -1227,6 +1231,10 @@ html,body{
 }
 
 .arrowdown:hover {
+    color: #222;
+}
+
+.nextsection {
     color: #222;
 }
 
