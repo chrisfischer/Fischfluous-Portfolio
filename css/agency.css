@@ -372,6 +372,7 @@ section h3.section-subheading {
 @media(min-width:768px) {
     section {
         padding: 150px 0;
+        padding-bottom: 90px;
     }
 }
 
@@ -690,6 +691,7 @@ section#contact {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    padding-bottom: 150px;
 }
 
 section#contact .section-heading {
@@ -1208,26 +1210,30 @@ html,body{
 }
 
 .showmore {
+    padding-top: 20px;
     text-align: center;
-    font-size: 88pt;
     float: left;
     margin-left: 48%;
     margin-right: 50%;
-    -webkit-transition: .9s cubic-bezier(.27, 1.64, .32, .95);
-    -moz-transition: .9s cubic-bezier(.27, 1.64, .32, .95);
-    -ms-transition: .9s cubic-bezier(.27, 1.64, .32, .95);
-    -o-transition: .9s cubic-bezier(.27, 1.64, .32, .95);
-    transition: .9s cubic-bezier(.27, 1.64, .32, .95);
 }
 
-.showmore:hover {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    transform: rotate(360deg);
+.showmore2 {
+    padding-top: 20px;
+    text-align: center;
+    width: auto !important;
 }
+
 
 .arrowdown {
     color: #f7f7f7;
+    font-size: 88pt;
+}
+
+.arrowdown2 {
+    color: #222;
+    font-size: 88pt;
+    padding: 0 !important;
+    height:auto;
 }
 
 .arrowdown:hover {
@@ -1236,6 +1242,12 @@ html,body{
 
 .nextsection {
     color: #222;
+    font-size: 40pt;
+}
+
+.nextsection2 {
+    color: #f7f7f7;
+    font-size: 40pt;
 }
 
 .backgroundimage2 h2 { 
@@ -1245,3 +1257,9 @@ html,body{
 .backgroundimage2 h3 { 
     color: #f7f7f7;
 }
+
+.centered{
+    margin-left: 46.5%;
+    margin-right: 50%;
+}
+
