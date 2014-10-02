@@ -1196,7 +1196,7 @@ body {
 
 .fullscreen {
     height: 100%;
-    min-height: 950px;
+    min-height: 650px;
 }
 
 html,body{
@@ -1204,16 +1204,22 @@ html,body{
 }
 
 .headerbottom {
-    font: "Simsun-ExtB" !important;
-    padding-top:60px;
-    padding-bottom: 40px;
+    font-family: "Simsun-ExtB" !important;
+    padding-top:30px;
+    padding-bottom: 20px;
     font-size:20pt; 
-    font-style:italic;
+    line-height: 30px;  
 }
 
 .showmore {
     padding-top: 20px;
     text-align: center;
+}
+
+.showmore11 {
+    padding-top: 0px;
+    text-align: center;
+    line-height: 10px;
 }
 
 .arrowdown {
