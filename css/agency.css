@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -282,14 +282,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
- 
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    
 }
 
 header .intro-text {
@@ -343,7 +336,7 @@ header .intro-text .intro-heading {
     }
     header .intro-text .intro-heading2 {
         margin-bottom: 50px;
-        font-family: SimSun-ExtB,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "SimSun-ExtB","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -359,13 +352,20 @@ section h2.section-heading {
     margin-bottom: 15px;
     font-size: 40px;
 }
-
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+    font-family: "Simsun-ExtB","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: #222;
+    font-weight: 400;
+}
+section h3.section-subheading2 {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Simsun-ExtB","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: #fff;
     font-weight: 400;
 }
 
@@ -446,6 +446,7 @@ section h3.section-subheading {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+    color: #777;
 }
 
 #portfolio * {
@@ -1048,9 +1049,8 @@ body {
 .showmol {
     color: #333;
     text-align: center;
-    font-style: italic;
-    font: "droid serif";
-    font-size: 25px;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 .showmol:hover {
@@ -1197,6 +1197,14 @@ body {
 .fullscreen {
     height: 100%;
     min-height: 650px;
+    background-attachment: fixed;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 html,body{
@@ -1204,11 +1212,12 @@ html,body{
 }
 
 .headerbottom {
-    font-family: "Simsun-ExtB" !important;
-    padding-top:30px;
+    font-family: "Simsun-ExtB";
+    padding-top:20px;
     padding-bottom: 20px;
     font-size:20pt; 
     line-height: 30px;  
+    font-weight: 1000;
 }
 
 .showmore {
