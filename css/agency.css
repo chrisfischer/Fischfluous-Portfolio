@@ -315,7 +315,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 190px;
         padding-bottom: 110px;
     }
 
@@ -1270,3 +1270,55 @@ html,body{
     margin-right: 50%;
 }
 
+
+.jewelry {
+    width: 320px !important;
+    height: 400px !important;
+    padding-top: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0px !important;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(0, 0, 0, 0.35)
+    ),
+    url(../img/1.jpg);
+    border-radius: 5px;
+}
+
+.jewelry:hover {
+    width: 320px !important;
+    height: 400px !important;
+    padding-top: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0px !important;
+    background-image: url(../img/1.jpg);
+}
+
+.about-us {
+    width: 320px !important;
+    height: 400px !important;
+    padding-top: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0px !important;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/2.jpg);
+    border-radius: 5px;
+}
+
+.about-us:hover {
+    width: 320px !important;
+    height: 400px !important;
+    padding-top: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0px !important;
+    background-image: url(../img/2.jpg);
+}
