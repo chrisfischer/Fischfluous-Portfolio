@@ -1298,6 +1298,7 @@ html,body{
     margin-right: 20px;
     border: 0px !important;
     background-image: url(../img/1.jpg);
+    color: #333;
 }
 
 .about-us {
@@ -1324,4 +1325,5 @@ html,body{
     margin-right: 20px;
     border: 0px !important;
     background-image: url(../img/2.jpg);
+    color: #333;
 }
