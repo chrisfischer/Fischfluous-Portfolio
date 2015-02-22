@@ -281,7 +281,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    /*color: #fff;*/
     
 }
 
@@ -1095,6 +1095,10 @@ body {
     font-size: 20pt;
 }
 
+.brandright:hover {
+    color: #82BAB7;
+}
+
 .press {
     background-color: #222;
     border-radius: 5px;
@@ -1287,7 +1291,7 @@ html,body{
       rgba(0, 0, 0, 0.35)
     ),
     url(../img/1.jpg);
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .jewelry:hover {
@@ -1314,7 +1318,7 @@ html,body{
       rgba(0, 0, 0, 0.4)
     ),
     url(../img/2.jpg);
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .about-us:hover {
