@@ -844,10 +844,14 @@ ul.social-buttons li a:active {
     margin-bottom: 0px;
 }
 
-.portfolio-modal .close-modal {
+#closes {
     position: absolute;
-    top: 25px;
-    right: 25px;
+    left: 50%;
+    margin-left: -37.5px;
+    margin-top: 10px;
+}
+
+.portfolio-modal .close-modal {
     width: 75px;
     height: 75px;
     background-color: transparent;
@@ -1330,4 +1334,16 @@ html,body{
     border: 0px !important;
     background-image: url(../img/2.jpg);
     color: #333;
+}
+
+@media only screen and (max-width: 990px) {
+    #headerdesktopbuttons {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    #headermobilebuttons {
+        display: none;
+    }
 }
