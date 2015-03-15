@@ -292,9 +292,9 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat;
     font-size: 22px;
-    font-style: italic;
+    font-weight: bold;
     line-height: 22px;
 }
 
@@ -308,7 +308,7 @@ header .intro-text .intro-heading2 {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
 }
@@ -321,15 +321,15 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        font-style: italic;
+        font-weight: bold;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
