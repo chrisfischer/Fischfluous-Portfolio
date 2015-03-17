@@ -659,6 +659,11 @@ section h3.section-subheading2 {
     }
 }
 
+.img-circle2 {
+    width: 270px !important;
+    height: 270px !important;
+    border-radius: 50%;
+}
 .team-member {
     margin-bottom: 30px;
     text-align: center;
