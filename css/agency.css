@@ -430,7 +430,10 @@ section h3.section-subheading2 {
 
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     max-width: 400px;
     text-align: center;
     background-color: #fff;
@@ -1134,6 +1137,7 @@ body {
     text-align: center;
     color: #fff;    
     padding: 10px;
+    border-radius: 5px;
     -moz-transition: background .3s;
     -webkit-transition: background .3s;
     -o-transition: background .3s;
@@ -1193,6 +1197,7 @@ body {
     text-align: center;
     color: #C4C4C4;    
     padding: 10px;
+    border-radius: 5px;
     -moz-transition: background .3s;
     -webkit-transition: background .3s;
     -o-transition: background .3s;
@@ -1352,3 +1357,4 @@ html,body{
         display: none;
     }
 }
+
