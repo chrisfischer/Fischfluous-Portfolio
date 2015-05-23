@@ -446,10 +446,10 @@ section h3.section-subheading2 {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Simsun-ExtB","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
-    color: #777;
+
+    color: #666;
 }
 
 #portfolio * {
